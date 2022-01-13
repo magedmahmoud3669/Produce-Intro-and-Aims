@@ -117,6 +117,7 @@ namespace Title_And_Goals
                // HtmlNode[] mokrr = doc.DocumentNode.SelectNodes("//body//div[@class='mokrr']").ToArray();
                 HtmlNodeCollection mokrr = doc.DocumentNode.SelectNodes("//body//div[@class='mokrr']");
                 HtmlNodeCollection AIMS = doc.DocumentNode.SelectNodes("//body//div[@class='AIMS']");
+                //ll
                 if (mokrr != null)
                 {
                     sw.WriteLine(mokrr[0].InnerHtml);
